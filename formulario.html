@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="get">
+        <div>
+            <label for="pnome">Nome</label>
+            <input id = "pnome" type="text" required placeholder="Primeiro Nome">
+        </div>
+        <br>
+        <div>
+            <label for="snome">Sobrenome</label>
+            <input id = "snome" type="text" required placeholder="Sobrenome">
+        </div>
+        <br>
+        <div>
+            <label for="pass">Senha</label>
+            <input id="pass" type="password" required>
+        </div>
+        <br>
+        <div>
+            <label for="niver">Aniversário</label>
+            <input type="date" id="niver">
+        </div>
+        
+        <br>
+        <div>
+            <label for="mail">email</label>
+            <input type="email" id="mail" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="tel">telefone</label>
+            <input type="tel" id="tel" name="phone">
+        </div>
+        <br>
+
+        <div>
+            <label for="grupo"> Título</label>
+            <br>
+            <label for="Mr."> Senhor.</label>
+            <input type="radio" id="Mr." name="grupo">
+            <label for="Ms."> Senhora.</label>
+            <input type="radio" id="Ms." name="grupo">
+            <label for="Phd."> PhD.</label>
+            <input type="radio" id="Phd." name="grupo">
+        </div>
+        <br>
+        <div>
+            <label for="lista">pagamento</label>
+            <select id="lista" name="lista">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+                
+            </select>
+            
+        </div>
+        
+        
+        <br>
+        
+        <div>
+            <label for="check">subscribe</label>
+            <input type="checkbox" id="check">
+        </div>
+        <br>        
+        
+        <div>
+            <input type="reset" name="reset" value="Reset">
+            <input type="submit" value="Enviar">
+        </div>
+
+
+    </form>
+</body>
+</html>
